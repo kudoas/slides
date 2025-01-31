@@ -57,11 +57,15 @@ ref. [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca3
 ## ![w:40px](images/vitest.svg) Vitest のポイント
 
 - ESM 標準サポート
-- テストの実行が高速
 - HMR (Hot Module Replacement)
   - ソースコードの変更を検出し、関連するテストだけを即座に実行
+- **テストの実行が高速**
 
-👉 パフォーマンス上のメリットの話が多いので、ベンチマークを計測してみる
+👉👉 パフォーマンス上のメリットの話が多い
+
+---
+
+# 推測するな、計測せよ
 
 ---
 
