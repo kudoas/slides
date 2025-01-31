@@ -83,7 +83,7 @@ ref. [Using Vitest with An Angular Project \| Analog](https://analogjs.org/docs/
 
 ## 検証用の入力フォームの</br>コンポーネントを用意
 
-![bg right:40% 90%](images/form.png)
+![bg right:55% 80%](images/form.png)
 
 ---
 
