@@ -14,7 +14,7 @@ image: https://avatars.githubusercontent.com/u/45157831?v=4
 header: Angular +  Vitest でのコンポーネントテストことはじめ | da1chi24
 -->
 
-# Angular とテストフレームワーク
+# ![w:40px](images/angular.gif) Angular とテストフレームワーク
 
 ## Angular では **karma / jasmine** がデフォルト
 
@@ -65,9 +65,9 @@ ref. [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca3
 
 ---
 
-## Angular アプリに Vitest を導入
+## ![w:40px](images/angular.gif) Angular アプリに ![w:40px](images/vitest.svg) Vitest を導入
 
-`analogjs` のプラグイン `@analogjs/vite-plugin-angular` を利用する。
+![w:30px](images/analogjs.png) `analogjs` のプラグイン `@analogjs/vite-plugin-angular` を利用する。
 
 詳しい導入方法はドキュメントを参照ください。
 手順通りにやればテストが動くところまでいくはず。
@@ -173,8 +173,7 @@ main();
 - 📝 セットアップが遅いのか、テストの実行が遅いのかまでの特定はできていない
 
 
-検証で使ったコード 
-ref. [kudoas/benchmark\-component\-test\-for\-angular](https://github.com/kudoas/benchmark-component-test-for-angular)
+検証で使ったコード  ref. [kudoas/benchmark\-component\-test\-for\-angular](https://github.com/kudoas/benchmark-component-test-for-angular)
 
 ---
 
