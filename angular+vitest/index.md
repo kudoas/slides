@@ -51,6 +51,7 @@ ref. [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca3
 
 - 人気急上昇中のテストフレームワーク
 - ブラウザテスト、スナップショットテスト、カバレッジなど機能が充実
+- 公式のサポートはまだない
 
 ---
 
