@@ -14,7 +14,7 @@ image: https://avatars.githubusercontent.com/u/45157831?v=4
 header: Angular + Vitest を試す | da1chi24
 -->
 
-# Angular とテスト
+# Angular とテストフレームワーク
 
 ## Angular では **karma / jasmine** がデフォルト
 
@@ -30,7 +30,7 @@ ref. https://github.com/karma-runner/karma
 
 ---
 
-# テストランナーの移行先
+# 次のテストランナーの移行先
 
 ## Web Test Runner, Jest, Vitest が俎上に上がっている
 
@@ -47,7 +47,7 @@ ref. [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca3
 - Angular では 3rd party の `jest-preset-angular` プラグインにより組み込みが容易
 - 公式で `@angular-devkit/build-angular:jest` が提供されている
 
-## ![w:40px](images/vitest.svg) vitest
+## ![w:40px](images/vitest.svg) Vitest
 
 - 人気急上昇中のテストフレームワーク
 - ブラウザテスト、スナップショットテスト、カバレッジなど機能が充実
@@ -56,7 +56,7 @@ ref. [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca3
 
 ## ![w:40px](images/vitest.svg) Vitest のポイント
 
-- ESM Module 標準サポート
+- ESM 標準サポート
 - テストの実行が高速
 - HMR (Hot Module Replacement)
   - ソースコードの変更を検出し、関連するテストだけを即座に実行
@@ -67,7 +67,7 @@ ref. [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca3
 
 ## Angular アプリに Vitest を導入
 
-analogjs のプラグイン `@analogjs/vite-plugin-angular` を利用する。
+`analogjs` のプラグイン `@analogjs/vite-plugin-angular` を利用する。
 
 詳しい導入方法はドキュメントを参照ください。
 手順通りにやればテストが動くところまでいくはず。
@@ -76,9 +76,7 @@ ref. [Using Vitest with An Angular Project \| Analog](https://analogjs.org/docs/
 
 ---
 
-## 検証用の入力フォームのコンポーネントを用意
-
-入力して送信を押すと入力データが送信される
+## 検証用の入力フォームの</br>コンポーネントを用意
 
 ![bg right:40% 90%](images/form.png)
 
